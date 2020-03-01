@@ -1,0 +1,90 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body:before {
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(background2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	filter: ;
+	z-index: -1;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Dancing Script', sans-serif;
+	color: orange;
+	padding: 30px 15px;
+	font-size: 3em;
+}
+
+p {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+.inputData {
+	width: 400px;
+	height: 40px;
+	background: #fff;
+	border: none;
+	border-radius: 10px;
+	float: none;
+	padding-left: 15px;
+}
+
+.inputPhone {
+	width: 190px;
+	height: 40px;
+	background: #fff;
+	border: none;
+	border-radius: 10px;
+	float: none;
+	padding-left: 15px;
+	margin-right: 5px;
+}
+
+.inputNation {
+	width: 200px;
+	height: 40px;
+	background: #fff;
+	border: none;
+	border-radius: 10px;
+	float: none;
+	padding-left: 15px;
+	margin-left: 5px;
+}
+
+.inputArea {
+	width: 400px;
+	height: 100px;
+	background: #fff;
+	border: none;
+	border-radius: 10px;
+	float: none;
+	padding-left: 15px;
+}
+
+.btn-submit {
+	height: 40px;
+	width: 400px;
+	background: orange;
+	font-family: 'Dancing Script', sans-serif;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
